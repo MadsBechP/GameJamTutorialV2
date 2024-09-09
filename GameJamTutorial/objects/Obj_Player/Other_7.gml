@@ -4,20 +4,20 @@
 /// @DnDArgument : "expr" "sprite_index"
 var l3D89DA11_0 = sprite_index;switch(l3D89DA11_0){	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
-	/// @DnDHash : 0113B9DC
+	/// @DnDHash : 2CF2233A
 	/// @DnDParent : 3D89DA11
 	/// @DnDArgument : "const" "Player_Jump"
 	case Player_Jump:	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 		/// @DnDVersion : 1
-		/// @DnDHash : 0845DB07
-		/// @DnDParent : 0113B9DC
+		/// @DnDHash : 047C4F92
+		/// @DnDParent : 2CF2233A
 		/// @DnDArgument : "speed" "0"
 		image_speed = 0;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 		/// @DnDVersion : 1
-		/// @DnDHash : 2160B69C
-		/// @DnDParent : 0113B9DC
+		/// @DnDHash : 6BB0C06E
+		/// @DnDParent : 2CF2233A
 		/// @DnDArgument : "value" "image_number-1"
 		/// @DnDArgument : "instvar" "11"
 		image_index = image_number-1;	break;
